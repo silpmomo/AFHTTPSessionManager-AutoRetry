@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B0523E663A9BC2C4102928BB /* libPods-AFNeworkingAutoRetry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB820605037AABF049E04979 /* libPods-AFNeworkingAutoRetry.a */; };
-		E326606B1CCA006F000962BE /* AFNeworkingAutoRetry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */; };
-		E326606D1CCA006F000962BE /* AFNeworkingAutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */; };
 		E326607D1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */; };
 		E32660861CCDE68A000962BE /* AFHTTPSessionTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E32660851CCDE68A000962BE /* AFHTTPSessionTaskManager.m */; };
 /* End PBXBuildFile section */
@@ -21,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E326606B1CCA006F000962BE /* AFNeworkingAutoRetry.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,8 +28,6 @@
 		59645744E92B94C52EBF2045 /* Pods-AFNeworkingAutoRetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNeworkingAutoRetry.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNeworkingAutoRetry/Pods-AFNeworkingAutoRetry.release.xcconfig"; sourceTree = "<group>"; };
 		BB820605037AABF049E04979 /* libPods-AFNeworkingAutoRetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNeworkingAutoRetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32660671CCA006F000962BE /* libAFNeworkingAutoRetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNeworkingAutoRetry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNeworkingAutoRetry.h; sourceTree = "<group>"; };
-		E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNeworkingAutoRetry.m; sourceTree = "<group>"; };
 		E326607B1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = "<group>"; };
 		E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = "<group>"; };
 		E32660841CCDE68A000962BE /* AFHTTPSessionTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionTaskManager.h; sourceTree = "<group>"; };
@@ -94,8 +89,6 @@
 				E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */,
 				E32660841CCDE68A000962BE /* AFHTTPSessionTaskManager.h */,
 				E32660851CCDE68A000962BE /* AFHTTPSessionTaskManager.m */,
-				E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */,
-				E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */,
 			);
 			path = AFNeworkingAutoRetry;
 			sourceTree = "<group>";
@@ -192,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E326607D1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m in Sources */,
-				E326606D1CCA006F000962BE /* AFNeworkingAutoRetry.m in Sources */,
 				E32660861CCDE68A000962BE /* AFHTTPSessionTaskManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -275,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

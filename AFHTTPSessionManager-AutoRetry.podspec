@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AFHTTPSessionManager-AutoRetry'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'AFHTTPSessionManager-AutoRetry'
   s.homepage     = 'https://github.com/silpmomo/AFHTTPSessionManager-AutoRetry'
   s.license      = { :type => 'MIT', :file => 'LICENSE' } 
