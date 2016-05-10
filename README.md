@@ -1,0 +1,2 @@
+# AFHTTPSessionManager-AutoRetry
+AFNetworking AutoRetry
