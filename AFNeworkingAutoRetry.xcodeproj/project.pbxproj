@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0523E663A9BC2C4102928BB /* libPods-AFNeworkingAutoRetry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB820605037AABF049E04979 /* libPods-AFNeworkingAutoRetry.a */; };
+		E326606B1CCA006F000962BE /* AFNeworkingAutoRetry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */; };
+		E326606D1CCA006F000962BE /* AFNeworkingAutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */; };
+		E326607D1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */; };
+		E32660861CCDE68A000962BE /* AFHTTPSessionTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E32660851CCDE68A000962BE /* AFHTTPSessionTaskManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E32660651CCA006F000962BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E326606B1CCA006F000962BE /* AFNeworkingAutoRetry.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59645744E92B94C52EBF2045 /* Pods-AFNeworkingAutoRetry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNeworkingAutoRetry.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNeworkingAutoRetry/Pods-AFNeworkingAutoRetry.release.xcconfig"; sourceTree = "<group>"; };
+		BB820605037AABF049E04979 /* libPods-AFNeworkingAutoRetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNeworkingAutoRetry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32660671CCA006F000962BE /* libAFNeworkingAutoRetry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNeworkingAutoRetry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNeworkingAutoRetry.h; sourceTree = "<group>"; };
+		E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNeworkingAutoRetry.m; sourceTree = "<group>"; };
+		E326607B1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+AutoRetry.h"; sourceTree = "<group>"; };
+		E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+AutoRetry.m"; sourceTree = "<group>"; };
+		E32660841CCDE68A000962BE /* AFHTTPSessionTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionTaskManager.h; sourceTree = "<group>"; };
+		E32660851CCDE68A000962BE /* AFHTTPSessionTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionTaskManager.m; sourceTree = "<group>"; };
+		E451DF4D1E1C7F2A06166E02 /* Pods-AFNeworkingAutoRetry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNeworkingAutoRetry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNeworkingAutoRetry/Pods-AFNeworkingAutoRetry.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32660641CCA006F000962BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0523E663A9BC2C4102928BB /* libPods-AFNeworkingAutoRetry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9CE23594EE2AAB0FAB0DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB820605037AABF049E04979 /* libPods-AFNeworkingAutoRetry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CCC2208543E2E2ED3E946A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E451DF4D1E1C7F2A06166E02 /* Pods-AFNeworkingAutoRetry.debug.xcconfig */,
+				59645744E92B94C52EBF2045 /* Pods-AFNeworkingAutoRetry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E326605E1CCA006F000962BE = {
+			isa = PBXGroup;
+			children = (
+				E32660691CCA006F000962BE /* AFNeworkingAutoRetry */,
+				E32660681CCA006F000962BE /* Products */,
+				9CCC2208543E2E2ED3E946A4 /* Pods */,
+				2E9CE23594EE2AAB0FAB0DE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E32660681CCA006F000962BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32660671CCA006F000962BE /* libAFNeworkingAutoRetry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32660691CCA006F000962BE /* AFNeworkingAutoRetry */ = {
+			isa = PBXGroup;
+			children = (
+				E326607B1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.h */,
+				E326607C1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m */,
+				E32660841CCDE68A000962BE /* AFHTTPSessionTaskManager.h */,
+				E32660851CCDE68A000962BE /* AFHTTPSessionTaskManager.m */,
+				E326606A1CCA006F000962BE /* AFNeworkingAutoRetry.h */,
+				E326606C1CCA006F000962BE /* AFNeworkingAutoRetry.m */,
+			);
+			path = AFNeworkingAutoRetry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32660661CCA006F000962BE /* AFNeworkingAutoRetry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32660701CCA006F000962BE /* Build configuration list for PBXNativeTarget "AFNeworkingAutoRetry" */;
+			buildPhases = (
+				A6914C1D4672E1A66CBFDE2D /* Check Pods Manifest.lock */,
+				E32660631CCA006F000962BE /* Sources */,
+				E32660641CCA006F000962BE /* Frameworks */,
+				E32660651CCA006F000962BE /* CopyFiles */,
+				1ADBCBD605DE45616A0DDBBD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNeworkingAutoRetry;
+			productName = AFNeworkingAutoRetry;
+			productReference = E32660671CCA006F000962BE /* libAFNeworkingAutoRetry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E326605F1CCA006F000962BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = silpmomo;
+				TargetAttributes = {
+					E32660661CCA006F000962BE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E32660621CCA006F000962BE /* Build configuration list for PBXProject "AFNeworkingAutoRetry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E326605E1CCA006F000962BE;
+			productRefGroup = E32660681CCA006F000962BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32660661CCA006F000962BE /* AFNeworkingAutoRetry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ADBCBD605DE45616A0DDBBD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNeworkingAutoRetry/Pods-AFNeworkingAutoRetry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6914C1D4672E1A66CBFDE2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32660631CCA006F000962BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E326607D1CCDE57E000962BE /* AFHTTPSessionManager+AutoRetry.m in Sources */,
+				E326606D1CCA006F000962BE /* AFNeworkingAutoRetry.m in Sources */,
+				E32660861CCDE68A000962BE /* AFHTTPSessionTaskManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E326606E1CCA006F000962BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E326606F1CCA006F000962BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32660711CCA006F000962BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E451DF4D1E1C7F2A06166E02 /* Pods-AFNeworkingAutoRetry.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E32660721CCA006F000962BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59645744E92B94C52EBF2045 /* Pods-AFNeworkingAutoRetry.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32660621CCA006F000962BE /* Build configuration list for PBXProject "AFNeworkingAutoRetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E326606E1CCA006F000962BE /* Debug */,
+				E326606F1CCA006F000962BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32660701CCA006F000962BE /* Build configuration list for PBXNativeTarget "AFNeworkingAutoRetry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32660711CCA006F000962BE /* Debug */,
+				E32660721CCA006F000962BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E326605F1CCA006F000962BE /* Project object */;
+}
