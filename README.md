@@ -14,3 +14,8 @@ To integrate AFHTTPSessionManager-AutoRetry into your Xcode project using CocoaP
 Then, run the following command:
 
     pod install
+    
+## Usage
+```objective-c
+#import <AFHTTPSessionManager-AutoRetry/AFHTTPSessionManager+AutoRetry.h>
+```
