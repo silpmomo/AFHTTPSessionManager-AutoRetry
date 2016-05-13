@@ -19,3 +19,13 @@ Then, run the following command:
 ```objective-c
 #import <AFHTTPSessionManager-AutoRetry/AFHTTPSessionManager+AutoRetry.h>
 ```
+```objective-c
+NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:@"data",@"key", nil];
+AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
+NSInteger autoretryCount = 3;
+[sessionManager POST:@"url" parameters:params progress:nil success:^(NSURLSessionDataTask * task, id responseObject) {
+//success
+} failure:^(NSURLSessionDataTask * task, NSError * error) {
+//fail
+}autoretry:autoretryCount];
+```
